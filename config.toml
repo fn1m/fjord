@@ -1,0 +1,23 @@
+[URI]
+# You may obtain your key from Alchemy or any other provider
+ETH_PROVIDER_URL = ""
+# VEC Fjord pool address
+CONTRACT_ADDRESS = "0xd8c383De549A4f6da6893E1A8B31d9117268b1Ab"
+TOKEN_DECIMALS = 100_000_000
+WETH_ADDRESS = "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+VEC_ABI = "contract_abi.json"
+WETH_ABI = "weth_abi.json"
+
+[KEY]
+# Path to your file private key. 
+PRIVATE_KEY_PATH = "my.key"
+
+[PARAMS]
+# Price at which you want to buy token, e.g.: 5 or 6.19
+PRICE = 0.1
+# This is the amount of Ether that you wish to spend, e.g.: 0.22
+AMOUNT_OF_wETHER_TO_BE_SPENT = 0.001
+
+[SETTINGS]
+# Check interval, seconds
+SLEEP_INTERVAL = 15
